@@ -9,6 +9,7 @@
 char* memory_str(int32_t address, int32_t data);
 void populate(int32_t max_dwords, char* file);
 
+
 int main(){
 	srand(SEED); // Set the rand() seed
 	populate(100, "mem.txt"); // Add 100 lines of random data to mem.txt
